@@ -14,7 +14,7 @@ body {
 }
 
 body div {
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +22,8 @@ body div {
 }
 
 .Login {
-  width: 400px;
+  width: 350px;
+  height: 90%;
 }
 .Login img {
   width: 100%;
@@ -100,11 +101,15 @@ body div {
 .Login form .form-group--center .btn--green {
   background-color: #18c451;
 }
-.Login .test {
+.Login .test1 {
+  width: 100%;
+  background-color: #e9e8ea;
+}
+.Login .test1 .test {
   text-align: center;
   width: 55%;
 }
-.Login .test .btn-action {
+.Login .test1 .test .btn-action {
   width: 100%;
   padding: 8px;
   color: #ffffff;
@@ -113,13 +118,15 @@ body div {
   border: none;
   font-size: 1rem;
 }
-.Login .test .btn--green {
+.Login .test1 .test .btn--green {
   background-color: #18c451;
+  margin-top: 10px;
 }
-.Login .test .help {
+.Login .test1 .test .help {
   padding-top: 20px;
   text-decoration: none;
   color: #0e0d0d;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
