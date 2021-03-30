@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url(https://static-01.vndirect.com.vn/images/dpro/dpro_login_bg.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50% 14%, center bottom;
+  background-size: cover;
+  display: block;
+}
+
+body div {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login {
+  width: 400px;
+}
+.Login img {
+  width: 100%;
+}
+.Login__form {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #e9e8ea;
+}
+.Login__form form {
+  margin-top: 15px;
+}
+.Login__form__title {
+  color: #444;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 16px;
+  padding: 0;
+  quotes: auto;
+  text-align: center;
+}
+.Login form {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+.Login form .form-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Login form .form-group label {
+  margin-bottom: 4px;
+}
+.Login form .form-group input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+.Login form .form-group__title {
+  padding-left: 10px;
+}
+.Login form .form-group:first-child {
+  margin-top: 0px;
+}
+.Login form .form-group--row-magin-bottom {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.Login form .form-group--row-magin-bottom input {
+  display: inline-block;
+  width: auto;
+}
+.Login form .form-group--center {
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.Login form .form-group--center .btn-action {
+  width: 100%;
+  padding: 8px;
+  color: #ffffff;
+  font-weight: 700px;
+  border-radius: 3px;
+  border: none;
+  font-size: 1rem;
+}
+.Login form .form-group--center .btn--orange {
+  background-color: #f7941d;
+}
+.Login form .form-group--center .btn--green {
+  background-color: #18c451;
+}
+.Login .test {
+  text-align: center;
+  width: 55%;
+}
+.Login .test .btn-action {
+  width: 100%;
+  padding: 8px;
+  color: #ffffff;
+  font-weight: 700px;
+  border-radius: 3px;
+  border: none;
+  font-size: 1rem;
+}
+.Login .test .btn--green {
+  background-color: #18c451;
+}
+.Login .test .help {
+  padding-top: 20px;
+  text-decoration: none;
+  color: #0e0d0d;
+}
+
+/*# sourceMappingURL=style.css.map */
