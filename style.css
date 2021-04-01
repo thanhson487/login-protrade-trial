@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0px;
+  padding: 0px;
+  font-size: 14px;
 }
 
 body {
@@ -29,6 +32,8 @@ body div {
   width: 100%;
 }
 .Login__form {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   margin-top: 30px;
   width: 100%;
   background-color: #e9e8ea;
@@ -39,7 +44,7 @@ body div {
 .Login__form__title {
   color: #444;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 22px;
   margin-top: 16px;
@@ -53,28 +58,27 @@ body div {
   flex-direction: column;
 }
 .Login form .form-group {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-.Login form .form-group label {
-  margin-bottom: 4px;
+  margin-top: 20px;
 }
 .Login form .form-group input {
   width: 100%;
   padding: 5px;
   margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #5c5a5a;
 }
 .Login form .form-group__title {
   padding-left: 10px;
+  color: #5a5a5a;
 }
 .Login form .form-group:first-child {
   margin-top: 0px;
 }
 .Login form .form-group--row-magin-bottom {
   flex-direction: row;
-  align-items: center;
   margin-bottom: 20px;
 }
 .Login form .form-group--row-magin-bottom input {
@@ -101,15 +105,20 @@ body div {
 .Login form .form-group--center .btn--green {
   background-color: #18c451;
 }
-.Login .test1 {
+.Login .helper {
   width: 100%;
   background-color: #e9e8ea;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-.Login .test1 .test {
-  text-align: center;
+.Login .helper .test {
+  margin-top: 20px;
   width: 55%;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-.Login .test1 .test .btn-action {
+.Login .helper .test .btn-action {
   width: 100%;
   padding: 8px;
   color: #ffffff;
@@ -118,11 +127,11 @@ body div {
   border: none;
   font-size: 1rem;
 }
-.Login .test1 .test .btn--green {
+.Login .helper .test .btn--green {
   background-color: #18c451;
   margin-top: 10px;
 }
-.Login .test1 .test .help {
+.Login .helper .test .help {
   padding-top: 20px;
   text-decoration: none;
   color: #0e0d0d;
