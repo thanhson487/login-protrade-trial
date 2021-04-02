@@ -75,6 +75,11 @@ body div {
 
         border-radius: 5px;
         border: 1px solid #ccc;
+
+        &:focus {
+          border: 1px solid orange;
+          outline: none;
+        }
       }
       &__title {
         padding-left: 10px;
@@ -90,7 +95,6 @@ body div {
       input {
         width: auto;
         outline: none;
-        border: 1px solid red;
       }
       margin-bottom: 20px;
     }
@@ -145,6 +149,9 @@ body div {
         padding: 20px 0px;
         text-decoration: none;
         color: rgb(14, 13, 13);
+        &:hover {
+          color: #f7941d;
+        }
       }
     }
   }

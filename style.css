@@ -75,6 +75,10 @@ body div {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+.Login form .form-group input:focus {
+  border: 1px solid orange;
+  outline: none;
+}
 .Login form .form-group__title {
   padding-left: 10px;
   color: #5a5a5a;
@@ -89,7 +93,6 @@ body div {
 .Login form .form-group--row-magin-bottom input {
   width: auto;
   outline: none;
-  border: 1px solid red;
 }
 .Login form .form-group--center {
   align-items: center;
@@ -143,6 +146,9 @@ body div {
   padding: 20px 0px;
   text-decoration: none;
   color: #0e0d0d;
+}
+.Login .helper .test .help:hover {
+  color: #f7941d;
 }
 
 /*# sourceMappingURL=style.css.map */
